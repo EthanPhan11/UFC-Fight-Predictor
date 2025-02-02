@@ -28,7 +28,7 @@ class StatScrapper(scrapy.Spider):
         'http://www.ufcstats.com/statistics/fighters?char=w&page=all',
         'http://www.ufcstats.com/statistics/fighters?char=x&page=all',
         'http://www.ufcstats.com/statistics/fighters?char=y&page=all',
-        'http://www.ufcstats.com/statistics/fighters?char=z&page=all'
+        'http://www.ufcstats.com/statistics/fighters?char=z&page=all',
         ]
     
     def parse(self, response):
